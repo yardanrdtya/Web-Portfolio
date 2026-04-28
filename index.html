@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — YardanRdtya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">YARDANRDTYA</div>
+    <div class="nav-links">
+      <a href="#home" class="nav-link active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#certificates" class="nav-link" data-section="certificates">Certificates</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="mobile-link" data-section="home">Home</a>
+    <a href="#about" class="mobile-link" data-section="about">About</a>
+    <a href="#certificates" class="mobile-link" data-section="certificates">Certificates</a>
+  </div>
+
+  <!-- HOME -->
+  <section class="section" id="home">
+    <div class="home-container">
+      <div class="home-tag">
+        <span class="dot"></span>
+        Available for work
+      </div>
+      <h1 class="home-title">
+        <span class="line">Data</span>
+        <span class="line italic">Enthusiast</span>
+        <span class="line">&amp; Future Data Scientist</span>
+      </h1>
+      <p class="home-desc">
+        I'm an Information Systems student at Mulawarman University with a passion for data scientist and information processing. I focus on how data can be used to generate useful insights for decision-making.
+      </p>
+      <div class="home-actions">
+        <a href="#certificates" class="btn-primary">View Work</a>
+        <a href="#about" class="btn-ghost">About Me</a>
+      </div>
+      <div class="home-stats">
+        <div class="stat">
+          <span class="stat-num">02+</span>
+          <span class="stat-label">Years exp.</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Projects done</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">12</span>
+          <span class="stat-label">Certificates</span>
+        </div>
+      </div>
+    </div>
+    <div class="home-visual">
+      <div class="avatar-frame">
+        <div class="avatar-img">
+          <img src="img/yardan.png" alt="fotogue">
+        </div>
+        <div class="avatar-badge">
+          <span class="dm-mono">Data Scientist</span>
+        </div>
+        <div class="avatar-ring"></div>
+      </div>
+      <div class="float-card fc-1">
+        <span class="fc-emoji">📈</span>
+        <div>
+          <div class="fc-title">Data Visualization</div>
+          <div class="fc-sub">Matplotlib · Seaborn · Tableau</div>
+        </div>
+      </div>
+      <div class="float-card fc-2">
+        <span class="fc-emoji">📊</span>
+        <div>
+          <div class="fc-title">Data Analysis</div>
+          <div class="fc-sub">Python · Pandas · Numpy</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="about-container">
+      <div class="section-label">
+        <span class="dot accent"></span>About Me
+      </div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Turning data<br/><em>into meaningful insights</em></h2>
+          <p class="about-text">
+            Hi! I'm Yardan Raditya Rafi' Widyadhana, an Information Systems student majoring in Data Science. I'm interested in processing, analyzing, and visualizing data to generate useful insights.
+          </p>
+          <p class="about-text">
+            I believe that data plays a crucial role in supporting decision-making. Therefore, I continue to develop my skills in data analysis, data exploration, statistics, and the use of relevant tools in this field.
+          </p>
+          <div class="about-skills">
+            <div class="skill-group">
+              <div class="skill-label">Data Analysis</div>
+              <div class="skill-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Numpy</span>
+                <span class="tag">Excel</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-label">Data Visualization</div>
+              <div class="skill-tags">
+                <span class="tag">Matplotlib</span>
+                <span class="tag">Seaborn</span>
+                <span class="tag">Tableau</span>
+                <span class="tag">Streamlit</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-label">Machine Learning</div>
+              <div class="skill-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-Learn</span>
+                <span class="tag">Joblib</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="tl-year">2026</div>
+              <div class="tl-content">
+                <div class="tl-role">Data Scientist - Capstone Project (FoodRescue)</div>
+                <div class="tl-company">Dicoding Indonesia · Independent Study</div>
+                <p class="tl-desc">Conduct data analysis and EDA to identify food distribution patterns and recipient needs. Process data using Python (Pandas, NumPy) and create visualizations. Contribute to the development of a data-driven food distribution system and environmental impact analysis.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="tl-year">2025</div>
+              <div class="tl-content">
+                <div class="tl-role">Data Analyst – School Education Quality Analysis  (iQurve)</div>
+                <div class="tl-company">Academic Project</div>
+                <p class="tl-desc">Preprocessing, cleaning, and analyzing data on education quality in Indonesia. Identifying patterns and differences between schools and presenting insights through visualizations using Python (Matplotlib & Seaborn).</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="tl-year">2025</div>
+              <div class="tl-content">
+                <div class="tl-role">Data Analyst – Lifestyle Factors Analysis</div>
+                <div class="tl-company">Academic Project</div>
+                <p class="tl-desc">Apply statistical methods such as correlation and ANOVA to analyze the relationship between lifestyle and academic performance. Develop data-driven reports as a basis for decision-making.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section" id="certificates">
+    <div class="cert-container">
+      <div class="section-label">
+        <span class="dot accent"></span>Certificates
+      </div>
+      <h2 class="section-title">Credentials &amp;<br/><em>Achievements</em></h2>
+
+      <div class="cert-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="data">Data</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+        <button class="filter-btn" data-filter="organization">Organization</button>
+      </div>
+
+      <div class="cert-grid" id="certGrid">
+
+        <div class="cert-card" data-category="organization">
+          <div class="cert-image-container">
+            <img src="img/Yardan Raditya Rafi' Widyadhana - INFORSA.png" class="cert-img" alt="INFORSA Certificate"/>
+            <div class="cert-badge">Organization</div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Information System Association</h3>
+            <div class="cert-issuer-row">
+              <span>Universitas Mulawarman</span>
+              <span class="cert-dot"></span>
+              <span>2025</span>
+            </div>
+            <a href="img/Yardan Raditya Rafi' Widyadhana - INFORSA.png" target="_blank" class="cert-link">View Certificate <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="organization">
+          <div class="cert-image-container">
+            <img src="img/Yardan Raditya Rafi' Widyadhana KC (3).jpg" class="cert-img" alt="Knowledge Center Certificate"/>
+            <div class="cert-badge">Organization</div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Knowledge Center</h3>
+            <div class="cert-issuer-row">
+              <span>Workshop & Training</span>
+              <span class="cert-dot"></span>
+              <span>2025</span>
+            </div>
+            <a href="img/Yardan Raditya Rafi' Widyadhana KC (3).jpg" target="_blank" class="cert-link">View Certificate <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="data">
+          <div class="cert-image-container">
+            <img src="img/Yardan Raditya Rafi' Widyadhana - DQLAB.png" class="cert-img" alt="DQLAB Certificate"/>
+            <div class="cert-badge">Data</div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Bootcamp Data Analytics</h3>
+            <div class="cert-issuer-row">
+              <span>Mini Bootcamp</span>
+              <span class="cert-dot"></span>
+              <span>2025</span>
+            </div>
+            <a href="img/Yardan Raditya Rafi' Widyadhana - DQLAB.png" target="_blank" class="cert-link">View Certificate <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="ml">
+          <div class="cert-image-container">
+            <img src="img/machine_learning.png" class="cert-img" alt="Machine Learning Certificate"/>
+            <div class="cert-badge">Machine Learning</div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Belajar Machine Learning</h3>
+            <div class="cert-issuer-row">
+              <span>Dicoding Indonesia</span>
+              <span class="cert-dot"></span>
+              <span>2026</span>
+            </div>
+            <a href="img/machine_learning.png" target="_blank" class="cert-link">View Certificate <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="tools">
+          <div class="cert-image-container">
+            <img src="img/git_github.png" class="cert-img" alt="GitHub Certificate"/>
+            <div class="cert-badge">Tools</div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Belajar Dasar Git dengan GitHub</h3>
+            <div class="cert-issuer-row">
+              <span>Dicoding Indonesia</span>
+              <span class="cert-dot"></span>
+              <span>2026</span>
+            </div>
+            <a href="img/git_github.png" target="_blank" class="cert-link">View Certificate <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="cert-card" data-category="data">
+          <div class="cert-image-container">
+            <img src="img/microsoft_fabric.png" class="cert-img" alt="Microsoft Fabric Certificate"/>
+            <div class="cert-badge">Data</div>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-title">Data Science dengan Microsoft Fabric</h3>
+            <div class="cert-issuer-row">
+              <span>Dicoding Indonesia</span>
+              <span class="cert-dot"></span>
+              <span>2026</span>
+            </div>
+            <a href="img/microsoft_fabric.png" target="_blank" class="cert-link">View Certificate <span>→</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">YARDANRDTYA</span>
+      <p class="footer-copy">© 2026 Yardan Raditya Rafi' Widyadhana.</p>
+      <div class="footer-links">
+        <a href="https://github.com/yardanrdtya" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/yardan-raditya-rafi%E2%80%99-widyadhana-b0130b328/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

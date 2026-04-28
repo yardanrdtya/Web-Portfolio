@@ -13,3 +13,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 📌 Notes
 This portfolio will continue to be updated as I grow and develop new skills in data and technology.
+
+---

@@ -1,7 +1,7 @@
 # 🌐 Yardan Raditya – Portfolio Website
 Welcome to my personal portfolio website! This project showcases my skills, projects, and journey as an aspiring Data Analyst & Future Data Scientist.
 
-🔗 Live Website: https://yardanrdtya.github.io/Web-Portofolio/
+🔗 Live Website: https://yardanrdtya.github.io/Web-Portfolio/
 
 ---
 
